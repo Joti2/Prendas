@@ -6,6 +6,7 @@
 	
 	<persistence-unit name="ropaPU" transaction-type="JTA">
 		<jta-data-source>java:/RopaDS</jta-data-source>
+		<class>pe.edu.upc.ropa.model.entity.Categoria</class>
 		<class>pe.edu.upc.ropa.model.entity.Customer</class>
 		<class>pe.edu.upc.ropa.model.entity.Order</class>
 		<class>pe.edu.upc.ropa.model.entity.Product</class>

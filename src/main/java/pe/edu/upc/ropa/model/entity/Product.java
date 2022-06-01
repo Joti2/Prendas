@@ -80,9 +80,6 @@ public class Product {
 		this.size = size;
 	}
 
-	
-	
-	
-	
+
 	
 }
